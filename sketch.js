@@ -242,6 +242,7 @@ function keyPressed() {
     // fullscreen
     case 70: // F
       var fs = fullscreen();
+      /*
       if(fs) {
         background_text.removeClass("textWhite");
         background_text.addClass("textBlack");
@@ -255,6 +256,7 @@ function keyPressed() {
         importSong.removeClass("dropNoFullscreen");
         importSong.addClass("textWhite dropFullscreen");
       }
+      */
       fullscreen(!fs);
       break;
             
