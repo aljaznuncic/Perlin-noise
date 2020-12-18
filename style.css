@@ -1,0 +1,58 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.button {
+  margin: 5px;
+  font-size: 18px;
+}
+
+.textBlack {
+  margin: 5px;
+  font-size: 18px;
+  color: black;
+  background-color: white;
+}
+
+.textWhite {
+  margin: 5px;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+}
+
+.dropNoFullscreen {
+  border: 3px black;
+  border-style: dotted;
+  padding: 3px 15px 3px 15px;
+}
+
+.dropNoFullscreen:drop {
+  border-style: solid;
+}
+
+.dropFullscreen {
+  border: 3px white;
+  border-style: dotted;
+  padding: 3px 15px 3px 15px;
+}
+
+.dropFullscreen:hover {
+  border-style: solid;
+}
+
+.musicStop {
+  background-color: #f23f3f;
+}
+
+.musicPlay {
+  background-color: #19a803;
+}
+
+.pause {
+  background-color: #3f7ef2;
+}
